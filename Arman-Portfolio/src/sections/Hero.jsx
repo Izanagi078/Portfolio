@@ -12,7 +12,8 @@ export default function Hero() {
       </div>
 
       {/* TOP BAR */}
-      <div className="relative z-10 container mx-auto px-6 py-6 flex justify-between items-center">
+      <div className="relative z-10 container mx-auto px-6 py-6 flex flex-col md:flex-row md:justify-between md:items-center space-y-4 md:space-y-0">
+
         {/* LEFT CONTACT INFO */}
         <div className="flex flex-col space-y-1 text-sm font-medium">
           <span className="text-indigo-300 text-sm font-semibold tracking-wide mb-1">Connect With Me</span>
