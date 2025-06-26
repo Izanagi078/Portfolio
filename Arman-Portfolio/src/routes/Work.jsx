@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function Projects() {
-  const projects = [
+  const Projects = [
     {
       title: "💸 MERN Expense Tracker",
       description:
@@ -99,7 +99,7 @@ export default function Projects() {
       </div>
 
       <div className="grid grid-cols-1 gap-8">
-        {projects.map((p) => (
+        {Projects.map((p) => (
           <div
             key={p.title}
             className="bg-gray-900 rounded-xl shadow-xl overflow-hidden flex flex-col md:flex-row"
