@@ -52,35 +52,45 @@ const About = () => {
             —places that sharpen both speed and precision.
           </p>
           <p>
-            I’ve built a full-stack{" "}
+            I’ve designed and built a variety of advanced systems: from my academic research in human-AI interaction under Prof. Suman Kundu with{" "}
             <a
-              href="https://final-two-hazel.vercel.app/"
-              className="text-indigo-400 font-semibold hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Expense Tracker
-            </a>
-            , a{" "}
-            <a
-              href="https://magic-steel.vercel.app/"
-              className="text-green-400 font-semibold hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ML engine
-            </a>
-            , and an applied{" "}
-                        <a
-              href="https://github.com/sunilbishnoi1/nftMarketplace"
+              href="/GLOSSVIS_Research_Paper.pdf"
               className="text-purple-400 font-semibold hover:underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Web3 NFT Marketplace
+              GLOSSVIS
             </a>
-
-            —each representing a different technical discipline that excites me deeply.
+            , to a multi-agent course orchestrator (
+            <a
+              href="https://savant.vercel.app/"
+              className="text-cyan-400 font-semibold hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Savant AI Tutor
+            </a>
+            ), a high-scale gRPC leasing service in Rust (
+            <span className="text-orange-400 font-semibold">Distributed Rate Limiter</span>
+            ), a math-rigorous recommendation portal (
+            <a
+              href="https://machine-learning-recommendation-sys.vercel.app"
+              className="text-green-400 font-semibold hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CineStream AI
+            </a>
+            ), and a full-stack{" "}
+            <a
+              href="https://final-two-hazel.vercel.app/"
+              className="text-pink-400 font-semibold hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              MERN Expense Tracker
+            </a>
+            —each representing a unique domain of computing that I enjoy mastering.
           </p>
           <p>
             Every solution I create aims for that sweet spot between simplicity, creativity, and velocity. I build with intent—and I debug with grit.
