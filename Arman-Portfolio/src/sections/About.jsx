@@ -52,7 +52,7 @@ const About = () => {
             —places that sharpen both speed and precision.
           </p>
           <p>
-            I’ve designed and built a variety of advanced systems: from my academic research in human-AI interaction under Prof. Suman Kundu with{" "}
+            I’ve designed and built a variety of advanced systems: from my academic research in human-AI interaction on{" "}
             <a
               href="/GLOSSVIS_Research_Paper.pdf"
               className="text-purple-400 font-semibold hover:underline"
