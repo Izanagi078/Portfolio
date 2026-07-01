@@ -17,7 +17,6 @@ export default function Projects() {
       techStack: [
         "Python",
         "Qwen 2.5 (14B)",
-        "PyMuPDF",
         "RAG",
         "NLP",
         "Information Visualization"
@@ -45,9 +44,7 @@ export default function Projects() {
         "Tailwind CSS",
         "FastAPI",
         "PostgreSQL",
-        "SQLAlchemy",
-        "asyncpg",
-        "Supabase Connection Pooler",
+        "Supabase",
         "Gemini 2.5 Flash"
       ],
       liveDemo: "https://savant.vercel.app/",
@@ -70,10 +67,8 @@ export default function Projects() {
       ],
       techStack: [
         "Rust",
-        "Tokio Async",
-        "Tonic (gRPC)",
-        "Prost (Protobuf)",
-        "DashMap Concurrency Map",
+        "gRPC Protocol",
+        "Concurrency Control",
         "Tracing"
       ],
       repo: "https://github.com/Izanagi078/DSA-Course-Project",
@@ -118,7 +113,7 @@ export default function Projects() {
       features: [
         "MERN Stack CRUD: Full lifecycle management of transactions and monthly targets connected via Express REST APIs.",
         "Argon2 & JWT Authentication: Secures client profiles with Argon2 password hashing and stateless JSON Web Token auth cookies.",
-        "Data Visualizations: Visualizes budget breakdowns and trends using Chart.js, Recharts, and date manipulation engines.",
+        "Data Visualizations: Visualizes budget breakdowns and trends using Recharts and date manipulation engines.",
         "Mongoose & Multer Storage: Persists transaction schemas inside MongoDB clusters with support for receipt image uploads."
       ],
       techStack: [
@@ -127,11 +122,11 @@ export default function Projects() {
         "Node.js",
         "MongoDB",
         "Tailwind CSS",
-        "Chart.js",
+        "Recharts",
         "JWT",
         "Argon2"
       ],
-      liveDemo: "https://final-two-hazel.vercel.app/",
+      liveDemo: "https://final-two-hazel.vercel.app/login",
       repo: "https://github.com/Izanagi078/Susanoo",
       previewType: "tracker-arch",
       badgeColor: "from-pink-500 to-rose-600"
@@ -349,7 +344,7 @@ export default function Projects() {
                     <div className="grid grid-cols-2 gap-3">
                       <div className="p-2.5 bg-green-500/5 border border-green-500/20 rounded-xl">
                         <div className="text-[10px] font-bold text-zinc-200">Collaborative filtering</div>
-                        <div className="text-[9px] text-zinc-500 mt-0.5">Truncated SVD SGD</div>
+                        <div className="text-[9px] text-zinc-500 mt-0.5">Matrix SVD</div>
                       </div>
                       <div className="p-2.5 bg-green-500/5 border border-green-500/20 rounded-xl">
                         <div className="text-[10px] font-bold text-zinc-200">Content Similarity</div>
@@ -392,7 +387,7 @@ export default function Projects() {
                     
                     <div className="p-2.5 bg-pink-500/5 border border-pink-500/20 rounded-xl flex items-center justify-between">
                       <span className="font-bold text-zinc-200">React Client UI</span>
-                      <span className="text-zinc-500 text-[10px]">Recharts & Chart.js</span>
+                      <span className="text-zinc-500 text-[10px]">Recharts Visualization</span>
                     </div>
 
                     <div className="flex justify-center font-black text-pink-500/50 -my-1.5">▼</div>
