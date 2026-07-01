@@ -64,6 +64,12 @@ export default function Hero() {
 
         {/* Action Hub */}
         <div className="flex items-center gap-6 text-xs font-bold text-zinc-400">
+          <Link
+            to="/projects"
+            className="px-4 py-2 bg-indigo-500/10 border border-indigo-500/20 hover:bg-indigo-500/20 text-indigo-300 rounded-lg transition"
+          >
+            Projects
+          </Link>
         </div>
       </div>
 

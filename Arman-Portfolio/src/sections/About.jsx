@@ -33,7 +33,7 @@ const About = () => {
                 I am an aspiring systems engineer driven by a deep love for concurrency, architecture, and mathematical constraints. My goal is to build high-throughput middleware, robust AI orchestrations, and deterministic paper visualization models.
               </p>
               <p className="text-zinc-400 text-sm leading-relaxed">
-                I study at IIT Jodhpur, specializing in Computer Science. Through my academic research and personal engineering tracks, I explore the margins where complex calculations meet clean web architectures.
+                I study at IIT Jodhpur. Through my academic research and personal engineering tracks, I explore the margins where complex calculations meet clean web architectures.
               </p>
               <p className="text-zinc-400 text-sm leading-relaxed">
                 I’ve designed and built a variety of advanced systems: from my academic research in human-AI interaction on{" "}
