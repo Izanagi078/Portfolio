@@ -187,8 +187,8 @@ export default function Hero() {
 
         {/* Right: email · github · projects */}
         <div className="flex items-center gap-4">
-          {/* Email */}
-          <NavIcon href="mailto:b23cs1006@iitj.ac.in" label="b23cs1006@iitj.ac.in">
+          {/* Email 1 */}
+          <NavIcon href="mailto:b23ci1005@iitj.ac.in" label="b23ci1005@iitj.ac.in">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
               <rect x="2" y="4" width="20" height="16" rx="2" />
               <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
@@ -283,10 +283,16 @@ export default function Hero() {
             About Me ↓
           </a>
           <a
-            href="mailto:b23cs1006@iitj.ac.in"
+            href="mailto:b23ci1005@iitj.ac.in"
             className="px-7 py-3.5 bg-emerald-500/10 border border-emerald-500/20 hover:bg-emerald-500/20 text-emerald-400 hover:text-emerald-300 font-bold rounded-xl text-xs transition duration-200 tracking-wide"
           >
-            ✉ Contact Me
+            ✉ IIT Mail
+          </a>
+          <a
+            href="mailto:kashyaparman15@gmail.com"
+            className="px-7 py-3.5 bg-red-500/10 border border-red-500/20 hover:bg-red-500/20 text-red-400 hover:text-red-300 font-bold rounded-xl text-xs transition duration-200 tracking-wide"
+          >
+            ✉ Gmail
           </a>
         </div>
 

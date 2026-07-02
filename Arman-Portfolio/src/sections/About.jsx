@@ -178,7 +178,6 @@ const About = () => {
             {[
               { label: "Projects Shipped",  val: 5,    suffix: "+", color: "text-cyan-400",   border: "border-cyan-500/15",   bg: "bg-cyan-500/5" },
               { label: "Languages",         val: 6,    suffix: "",  color: "text-indigo-400", border: "border-indigo-500/15", bg: "bg-indigo-500/5" },
-              { label: "CP Problems Solved",val: 250,  suffix: "+", color: "text-orange-400", border: "border-orange-500/15", bg: "bg-orange-500/5" },
               { label: "Academic Year",     val: 2023, suffix: "→", color: "text-purple-400", border: "border-purple-500/15", bg: "bg-purple-500/5" },
             ].map((s) => (
               <div key={s.label} className={`glass ${s.bg} ${s.border} border rounded-2xl p-5 text-center hover:scale-[1.03] transition-all duration-200`}>
@@ -198,10 +197,16 @@ const About = () => {
             </div>
             <div className="flex gap-3 flex-shrink-0">
               <a
-                href="mailto:b23cs1006@iitj.ac.in"
+                href="mailto:b23ci1005@iitj.ac.in"
                 className="px-5 py-2.5 bg-emerald-500/15 border border-emerald-500/25 text-emerald-400 hover:text-emerald-300 hover:bg-emerald-500/25 text-xs font-bold rounded-xl transition"
               >
-                ✉ Email Me
+                ✉ IIT Mail
+              </a>
+              <a
+                href="mailto:kashyaparman15@gmail.com"
+                className="px-5 py-2.5 bg-red-500/10 border border-red-500/20 text-red-400 hover:text-red-300 hover:bg-red-500/20 text-xs font-bold rounded-xl transition"
+              >
+                ✉ Gmail
               </a>
               <a
                 href="https://github.com/Izanagi078"
