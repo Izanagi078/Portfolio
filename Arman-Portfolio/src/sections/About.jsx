@@ -173,18 +173,18 @@ const About = () => {
           {/* Cell 3 — Stat cards row */}
           <div
             ref={statRef}
-            className={`lg:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-4 transition-all duration-700 delay-200 ${statVis ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+            className={`lg:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-5 transition-all duration-700 delay-200 ${statVis ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
           >
             {[
-              { label: "Projects Shipped",  val: 5,    suffix: "+", color: "text-cyan-400",   border: "border-cyan-500/15",   bg: "bg-cyan-500/5" },
-              { label: "Languages",         val: 6,    suffix: "",  color: "text-indigo-400", border: "border-indigo-500/15", bg: "bg-indigo-500/5" },
-              { label: "Academic Year",     val: 2023, suffix: "→", color: "text-purple-400", border: "border-purple-500/15", bg: "bg-purple-500/5" },
+              { label: "Projects Shipped", val: 5,    suffix: "+", color: "text-cyan-400",   border: "border-cyan-500/20",   bg: "bg-cyan-500/5",   glow: "hover:shadow-[0_0_24px_rgba(6,182,212,0.12)]" },
+              { label: "Languages",        val: 6,    suffix: "",  color: "text-indigo-400", border: "border-indigo-500/20", bg: "bg-indigo-500/5", glow: "hover:shadow-[0_0_24px_rgba(99,102,241,0.12)]" },
+              { label: "Academic Year",    val: 2023, suffix: "→", color: "text-purple-400", border: "border-purple-500/20", bg: "bg-purple-500/5", glow: "hover:shadow-[0_0_24px_rgba(168,85,247,0.12)]" },
             ].map((s) => (
-              <div key={s.label} className={`glass ${s.bg} ${s.border} border rounded-2xl p-5 text-center hover:scale-[1.03] transition-all duration-200`}>
-                <p className={`text-3xl font-black mb-1 ${s.color}`}>
+              <div key={s.label} className={`glass ${s.bg} ${s.border} border rounded-2xl py-8 px-6 text-center hover:scale-[1.03] ${s.glow} transition-all duration-200`}>
+                <p className={`text-4xl font-black mb-2 ${s.color}`}>
                   <Counter to={s.val} suffix={s.suffix} />
                 </p>
-                <p className="text-[11px] text-zinc-500 uppercase font-bold tracking-wider">{s.label}</p>
+                <p className="text-xs text-zinc-400 uppercase font-bold tracking-widest">{s.label}</p>
               </div>
             ))}
           </div>
